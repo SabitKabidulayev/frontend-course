@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Yeseva+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #FFFAF3;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    padding-left: 180px;
+}
+
+.left {
+    display: inline-block;
+    width: 535px;
+    margin-right: 68px;
+}
+
+.right {
+    display: inline-block;
+    width: 650px;
+    vertical-align: top;
+}
+
+nav {
+    width: 470px;
+    border-bottom: 1px solid #C08D5D;
+    margin-bottom: 122px;
+}
+
+.nav__logo,
+.nav__links {
+    display: inline-block;
+}
+
+.nav__logo {
+    padding: 43px 0;
+    margin-right: 83px;
+}
+
+.nav__links {
+    padding: 59px 0;
+    vertical-align: top;
+}
+
+.nav__links a {
+    margin-right: 48px;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 20px;
+}
+
+.nav__links a:hover {
+    color: #C08D5D;
+}
+
+.title-card {
+    width: 535px;
+}
+
+.title-card__title1,
+.title-card__logo {
+    display: inline-block;
+}
+
+.title-card__title1 {
+    color: #3F4042;
+    font-family: Yeseva One;
+    font-size: 50px;
+    letter-spacing: 3px;
+    margin-right: 8px;
+}
+
+.title-card__logo {
+    vertical-align: bottom;
+}
+
+.title-card__title2 {
+    color: #3F4042;
+    font-family: Yeseva One;
+    font-size: 70px;
+    letter-spacing: 4.2px;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.title-card__divider {
+    margin-bottom: 26px;
+}
+
+.title-card__text {
+    color: #3F4042;
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 147.6%;
+    letter-spacing: 1.08px;
+    margin-bottom: 72px;
+}
+
+.read-more {
+    display: inline-block;
+    background-color: #FFFAF3;
+    border: 2px solid #C08D5D;
+    padding-left: 26px;
+    text-decoration: none;
+    color: #3F4042;
+    font-family: Open Sans;
+    font-size: 20px;
+    line-height: 147.6%;
+    letter-spacing: 1.2px;
+    line-height: 64px;
+    margin-bottom: 63px;
+    transition-property: background-color, color;
+    transition-duration: 600ms, 200ms;
+}
+
+.read-more::after {
+    content: url(../img/link.svg);
+    display: inline-block;
+    background-color: #C08D5D;
+    width: 59px;
+    height: 64px;
+    color: white;
+    line-height: 64px;
+    text-align: center;
+    margin-left: 26px;
+}
+
+.read-more:hover {
+    background-color: #C08D5D;
+    color: #FFFAF3;
+}
+
+.mouse {
+    display: block;
+    margin-left: 523px;
+    margin-bottom: 69px;
+}

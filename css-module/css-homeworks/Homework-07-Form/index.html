@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabit-HW7-Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <h3>Пожалуйста, укажите Ваше имя и фамилию.</h3>
+            <h4>Чтобы облегчить общение и поиск друзей, у нас приняты настоящие имена и фамилии.</h4>
+            <div class="inputs-submit">
+                <input type="text" name="first_name" placeholder="Ваше имя">
+                <input type="text" name="last_name" placeholder="Ваша фамилия">
+                <p>Дата рождения</p>
+                <div class="day-month-year">
+                    <select class="day" name="day" id="">
+                        <option value="" hidden>День</option>
+                        <option value="">option1</option>
+                        <option value="">option2</option>
+                    </select>
+                    <select class="month" name="month" id="">
+                        <option value="" hidden>Месяц</option>
+                        <option value="">option1</option>
+                        <option value="">option2</option>
+                    </select>
+                    <select class="year" name="year" id="">
+                        <option value="" hidden>Год</option>
+                        <option value="">option1</option>
+                        <option value="">option2</option>
+                    </select>
+                </div>
+                <button>Зарегестрироваться</button>
+                <div class="or-divider">
+                    <div class="divider"></div>
+                    <p>или</p>
+                    <div class="divider"></div>
+                </div>
+                <a href="">Продолжить с Facebook</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

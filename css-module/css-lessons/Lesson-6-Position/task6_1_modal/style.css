@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.modal {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.515);
+}
+
+.modal-container {
+    border: 2px solid black;
+    position: fixed;
+    max-width: 300px;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    background-color: white;
+}
+
+.modal-container .cat {
+    width: 100%;
+}
+
+.modal-container .close-icon {
+    width: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}

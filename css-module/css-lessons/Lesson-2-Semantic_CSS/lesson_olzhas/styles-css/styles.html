@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<!-- <style>
+    h1 {
+        color: blue;
+        text-align: center;
+    }
+
+    .big-text {
+        font-size: 64px;
+        color: blueviolet;
+    }
+    #big-text {
+        font-size: 64px;
+        color: rgb(30, 255, 0);
+    }
+</style> -->
+
+<body>
+    <!-- 1 - inline styles - вложенные стили -->
+    <!-- 
+    - :
+    1 некрасиво
+    2 сложно менять большое колво тегов
+    3 нарушает DRY
+    + :
+    1 легче 
+    -->
+    <h1 style="color:red">Text 1</h1>
+    <h1 style="color:red">Text 2</h1>
+    <p style="color:red">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dicta, architecto iste cupiditate consequatur
+        culpa sapiente illo similique id enim dolor quis nam, quos incidunt. Laboriosam veritatis beatae aspernatur
+        fugiat.
+    </p>
+    <!-- DRY - Don't Repeat Yourself -->
+
+    <!-- 2 способ - Встроенные стили - style tag - тэг <style> -->
+    <!-- 
+    - :
+    1 применяется ко всем тегам
+    2 стили в HTML (некрасиво)
+    + :
+    1 можно быстро прописать стили
+    -->
+    <h1 class="big-text" id="big-text" style="color:black">Text1</h1>
+    <h1 class="big-text">Text2</h1>
+    <h1 class="big-text" id="big-text">Text3</h1>
+    <!-- id лучше не использовать для стилей -->
+</body>
+
+</html>

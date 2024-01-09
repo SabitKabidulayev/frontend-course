@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(./img/headerback.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px 300px 50px 200px;
+}
+
+.header_section {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.header_section1 {
+    padding-top: 30px;
+    width: 400px;
+}
+
+.header_section2 {
+    width: 600px;
+}
+
+.header_section2 h2 {
+    color:rgb(5, 132, 132);
+    font-weight: normal;
+}
+
+.header_section2 p {
+    color:grey
+}

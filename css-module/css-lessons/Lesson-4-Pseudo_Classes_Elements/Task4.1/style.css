@@ -1,0 +1,26 @@
+div {
+    margin-top: 50px;
+}
+
+.moveto {
+    display: inline-block;
+    background-color: #75E8FD;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana;
+    padding-left: 26px;
+    line-height: 64px;
+}
+
+.moveto::after {
+    content: ">";
+    display: inline-block;
+    background-color: #14B0CE;
+    width: 59px;
+    height: 64px;
+    color: white;
+    line-height: 64px;
+    text-align: center;
+    margin-left: 26px;
+
+}

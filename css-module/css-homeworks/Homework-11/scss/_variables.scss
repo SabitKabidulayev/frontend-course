@@ -1,0 +1,50 @@
+$textColor1: black;
+$textColor2: white;
+$textColor3: #808080;
+$textColor4: #F8464A;
+$textFont1: 'Manrope', sans-serif;
+$textFont2: 'Inter', sans-serif;
+$bgColor1: #F8464A;
+$bgColor2: #d03b3d;
+$bgColor3: #F4F5F7;
+$bgcolor4: white;
+$transitionBg: background-color 0.2s ease-in;
+
+@mixin container ($maxWidth, $padding) {
+    max-width: $maxWidth;
+    margin: 0 auto;
+    padding: $padding;
+}
+
+@mixin flex ($direction: row, $justCont: center, $alignItems: center, $wrap: wrap, $gap: 10px) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justCont;
+    align-items: $alignItems;
+    flex-wrap: $wrap;
+    gap: $gap;
+}
+
+@mixin grid ($gridTemplCol: 1fr, $colGap: 10px, $rowGap: 10px) {
+    display: grid;
+    grid-template-columns: $gridTemplCol;
+    column-gap: $colGap;
+    row-gap: $rowGap;
+}
+
+@mixin text ($color: $textColor1, $fontFamily: $textFont1, $fontSize: 12px, $fontWeight: 400, $lineHeight: normal, $letterSpacing: normal, $textAlign: left) {
+    color: $color;
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    line-height: $lineHeight;
+    letter-spacing: $letterSpacing;
+    text-align: $textAlign;
+}
+
+@mixin borderBgPadding ($bgColor: $bgColor1, $borderRadius: 8px, $padding: 0) {
+    background-color: $bgColor;
+    border-radius: $borderRadius;
+    border-style: none;
+    padding: $padding;
+}

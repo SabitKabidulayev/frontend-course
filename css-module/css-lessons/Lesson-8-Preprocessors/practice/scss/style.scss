@@ -1,0 +1,62 @@
+@import "global";
+
+
+.select-container {
+    position: relative;
+    border-radius: 4px;
+    .select {
+        appearance: none;
+        background-color: magenta;
+        border: 2px solid magenta;
+        padding: 7px 10px;
+        border-radius: inherit;
+        color: white;
+        cursor: pointer;
+        padding-right: 32px;
+
+        &:focus {
+            outline: none;
+            background-color: white;
+            color: magenta;
+            border: 2px solid magenta;
+        }
+
+        &:focus + .select-icon {
+            background-color: magenta;
+            color: white;
+        }
+
+        &:hover {
+            background-color: white;
+            color: magenta;
+            border: 2px solid magenta;
+        }
+
+        &:hover + .select-icon {
+            background-color: magenta;
+            color: white;
+        }
+
+        option {
+            &:hover {
+                background-color: rgb(254, 116, 254);
+            }
+        }
+    }
+    .select-icon {
+        pointer-events: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: white;
+        height: 100%;
+        width: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid magenta;
+        border-top-right-radius: inherit;
+        border-bottom-right-radius: inherit;
+        color: magenta;
+    }
+}

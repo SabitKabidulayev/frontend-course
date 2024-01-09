@@ -1,0 +1,28 @@
+.box {
+    width: 400px;
+    height: 400px;
+    color: aliceblue;
+}
+
+.box1 {
+    background-color: crimson;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    /* верх/низ лево/право */
+    margin: 100px 50px;
+    /* верх лево/право низ */
+    margin: 50px 100px 70px;
+    /* верх право низ лево*/
+    margin: 20px 50px 10px 100px
+}
+
+.box2 { 
+    background-color: rgb(137, 20, 220);
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.box3 {
+    background-color: blue;
+    margin: 0 auto; /* центрировать по горизонтали */
+}
