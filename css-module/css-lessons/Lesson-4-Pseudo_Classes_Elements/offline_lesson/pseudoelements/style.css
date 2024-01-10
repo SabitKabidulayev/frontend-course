@@ -1,0 +1,36 @@
+.input1::placeholder {
+    color: red
+}
+
+.box1 {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.box1::before {
+    content: "box";
+    display: inline-block;
+    width: 200px;
+    height:200px;
+    background-color: red;
+
+}
+
+.cat {
+    width: 200px;
+}
+
+.cat::before {
+    content:"";
+    background-color: orange;
+    width: 10px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.list1 li::marker {
+    color:red
+}

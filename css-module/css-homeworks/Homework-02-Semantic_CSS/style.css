@@ -1,0 +1,130 @@
+@import url('https://fonts.cdnfonts.com/css/cyberpunk-is-not-dead');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+header,
+footer {
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+footer {
+    padding: 50px;
+}
+
+header .header-logo {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+header .header-title {
+    color: white;
+    text-align: center;
+    font-family: 'Cyberpunk Is Not Dead', sans-serif;
+    font-size: 64px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section-divider {
+    background-image: url(./images/divider.png);
+    width: 100%;
+    height: 64px;
+    background-size: contain;
+    background-position: center;
+}
+
+main {
+    background-color: yellow;
+    margin: 20px 15%;
+    border: 5px solid rgba(230, 0, 18, 255);
+
+}
+
+.news-block-title,
+.albums-block-title {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+}
+
+.albums-block-title {
+    margin-top: 40px;
+}
+
+.news-article {
+    margin: 30px 30px 0 30px;
+}
+
+.news-article-title,
+.album-description-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
+}
+
+.album-description-title {
+    font-size: 42px;
+}
+
+.news-article-text,
+.album-description-text,
+.footer-text {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.footer-text {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin: 0
+}
+
+.news-article-link {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: red;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.news-article .news-article-link:hover {
+    text-decoration: underline;
+}
+
+.album {
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 20px
+
+}
+
+.album .album-cover {
+    width: 400px;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.album .album-description {
+    width: 450px;
+    display: inline-block;
+}

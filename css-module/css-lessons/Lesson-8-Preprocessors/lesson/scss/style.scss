@@ -1,0 +1,40 @@
+@import "global";
+@import "templates";
+
+$bg-main: rgb(22, 213, 194);
+
+body {
+    background-color: lime;
+}
+
+@mixin flex($direction, $items, $justify, $wrap: nowrap, $gap: 20px) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: $items;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+    gap: $gap;
+}
+
+.container {
+    @extend %flex-center;
+    width: 800px;
+    height: 800px;
+    background-color: yellow;
+    @include flex(row, flex-end, center, $gap: 50px, $wrap: wrap);
+
+    .box {
+        @extend %flex-center;
+        width: 400px;
+        height: 400px;
+        background-color: red;
+
+        &:hover {
+            background-color: lime;
+        }
+
+        p {
+            color: white
+        }
+    }
+}

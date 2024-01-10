@@ -1,0 +1,215 @@
+@media screen and (max-width:376px) {
+    .container {
+        @include container(335px, 0 20px);
+    }
+
+    // HEADER
+
+    .navbar {
+        padding-bottom: 62px
+    }
+
+    form {
+        gap: 30px;
+        padding-bottom: 84.5px;
+
+        .formDescr {
+
+            h1 {
+                text-align: center;
+            }
+
+            p {
+                text-align: center;
+                font-size: 12px;
+                line-height: 23px;
+            }
+        }
+
+        .registerForm {
+            margin-top: 13px;
+        }
+    }
+
+    // MAIN
+
+    // Section1
+
+    .section1 {
+        .containerSection1 {
+            .section1Descr {
+                padding: 60px 0 40px;
+                gap: 15px;
+
+                h2 {
+                    font-size: 24px;
+                }
+
+                p {
+                    font-size: 12px;
+                    line-height: 22px;
+                }
+            }
+
+            .section1Cards {
+                padding: 0 10px 90px;
+            }
+        }
+    }
+
+    // Section2
+
+    .section2 {
+
+        .containerSection2 {
+            padding-top: 50px;
+            padding-bottom: 84px;
+
+            .section2Wrapper {
+
+                .section2Descr {
+                    padding-bottom: 55px;
+
+                    h2 {
+                        font-size: 36px;
+                        line-height: 47px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+
+                .section2Steps {
+                    gap: 40px;
+
+                    p {
+                        font-size: 18px;
+                        line-height: normal;
+                        text-align: center;
+                    }
+
+                    .s2step {
+                        max-width: 183px;
+                    }
+                }
+            }
+        }
+    }
+
+    // Section3
+
+    .section3 {
+        .containerSection3 {
+            padding-top: 90px;
+            padding-bottom: 90px;
+
+            .section3Articles {
+                gap: 60px;
+
+                .s3Article {
+
+                    .s3ArticleText {
+
+                        h2 {
+                            font-size: 36px;
+                            line-height: 41.5px;
+                        }
+
+                        p {
+                            font-size: 14px;
+                            line-height: 28.5px;
+                        }
+
+                        a {
+                            display: inline-block;
+                            width: 100%;
+                            padding-left: 0;
+                            padding-right: 0;
+                            text-align: center;
+                            margin-top: 20px;
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+
+    // Section4
+
+    .section4 {
+        .containerSection4 {
+            padding-top: 40px;
+            padding-bottom: 40px;
+
+            h2 {
+                font-size: 36px;
+                line-height: 41.5px;
+                margin-bottom: 14px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .section4Clients {
+                display: flex;
+                flex-direction: column;
+
+                .desktop-only {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    // Section5
+
+    .section5 {
+        .containerSection5 {
+            padding-top: 90px;
+            padding-bottom: 82px;
+
+
+            img {
+                width: 90px;
+                margin-bottom: 20px;
+            }
+
+            h2 {
+                margin-bottom: 12px;
+                font-size: 36px;
+            }
+
+            p {
+                margin-bottom: 20px;
+                font-size: 14px;
+                line-height: 25px;
+            }
+
+            button {
+                font-size: 16px;
+                padding: 11px 20px;
+            }
+        }
+    }
+
+    // FOOTER
+
+    footer {
+
+        .containerFooter {
+            padding-bottom: 77px;
+
+            .footerLinks {
+                margin-bottom: 30px;
+            }
+
+            .footerBottom {
+                gap: 62px;
+            }
+        }
+    }
+}

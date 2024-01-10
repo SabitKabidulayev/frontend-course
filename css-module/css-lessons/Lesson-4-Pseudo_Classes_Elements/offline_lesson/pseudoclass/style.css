@@ -1,0 +1,50 @@
+:root {
+    --bg-main: pink;
+    --color-main: rgb(255, 170, 0);
+}
+
+body {
+    background-color: var(--bg-main);
+}
+
+.box1 {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(122, 6, 29);
+    transition: background-color 1s ease-out;
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.box1 *:nth-child(2) {    
+    color:rgb(255, 251, 0)
+}
+
+.box1 p:nth-of-type(2) {    
+    color:blue
+}
+
+/* наведение */
+.box1:hover {
+    background-color: rgb(255, 0, 51);
+}
+
+
+/* нажать и зажать */
+.box1:active {
+    background-color: rgb(98, 255, 0);
+}
+
+.input1 {
+    padding: 10px 15px;
+    width: 500px;
+}
+
+.input1:focus {
+    color:blue
+}
+
+.box2 {
+    color: var(--color-main)
+}

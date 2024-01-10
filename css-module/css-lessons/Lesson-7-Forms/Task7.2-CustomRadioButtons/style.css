@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.custom-radio-buttons {
+    max-width: 70px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.custom-radio-buttons .custom-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.custom-button input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    right: 0;
+}
+
+.custom-button span {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px grey solid;
+}
+
+.custom-button input:checked+span {
+    padding: 1px;
+    background-color: green;
+}

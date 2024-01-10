@@ -1,0 +1,14 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+.big-text {
+    font-size: 64px;
+    color: blueviolet;
+}
+
+#big-text {
+    font-size: 64px;
+    color: rgb(30, 255, 0);
+}

@@ -1,0 +1,37 @@
+.flex {
+    /* display: flex; */
+    /* направление */
+    /* flex-direction: column; */
+    /*перенос default: no-wrap */
+    /* flex-wrap: wrap;  */
+    /*по вертикали flex-end flex-start center*/
+    /* align-items: center; */
+    /* по горизонтали flex-start flex-end space-between left right*/
+    /* justify-content: left; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box1 {
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.box2 {
+    width: 200px;
+    height: 400px;
+    background-color: blue;
+    border: 1px solid black;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 1px solid black;
+}
+
